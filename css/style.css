@@ -28,11 +28,29 @@ html {
   height: 100vh;
   position: relative;
   font-family: var(--font-family);
-  background-image: url(../assets/img/bg-pattern-top.svg),
-    url(../assets/img/bg-pattern-bottom.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background-image: url(../assets/img/bg-pattern-top.svg), */
+    /* url(../assets/img/bg-pattern-bottom.svg); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
 }
+
+.container{
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+  overflow: hidden;
+}
+
+.bg__pattern-top{
+  background: url(/assets/img/bg-pattern-top.svg);
+  width: 978px;
+  height: 978px;
+  position: absolute;
+  z-index: 0;
+  margin-right: 960px;
+  margin-bottom: 800px;
+}
+
 
 .main__card {
   width: 350px;
